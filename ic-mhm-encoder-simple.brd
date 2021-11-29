@@ -75,7 +75,7 @@
 <layer number="201" name="201bmp" color="2" fill="10" visible="yes" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyZDc2YTg0" projecturn="a.cGVyc29uYWw6dWUyZDc2YTg0I0QyMDE4MTAxMTE1NDA5NDkwMQ" f3durn="urn:adsk.wipprod:dm.lineage:cRy2wqOgSwGWjgXRfm9aog" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="3380200f-ce55-481d-b55a-b27747c47f31" lastsyncedrevisionid="3380200f-ce55-481d-b55a-b27747c47f31" lastboardhashguid="841a098c-36e2-2afa-04b2-54153f3a2ca9" lastpushedtime="2021-11-24T07:05:37Z" linktopcb3d="true"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyZDc2YTg0" projecturn="a.cGVyc29uYWw6dWUyZDc2YTg0I0QyMDE4MTAxMTE1NDA5NDkwMQ" f3durn="urn:adsk.wipprod:dm.lineage:cRy2wqOgSwGWjgXRfm9aog" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="bf94aacb-a219-4fe9-a260-961f2c0cfe42" lastsyncedrevisionid="bf94aacb-a219-4fe9-a260-961f2c0cfe42" lastboardhashguid="8f8cbafc-e03e-f323-aa5e-8949940b47b4" lastpushedtime="2021-11-29T05:07:52Z" linktopcb3d="true"/>
 <plain>
 <wire x1="10.00001875" y1="28.867509375" x2="-29.99998125" y2="5.7735" width="0" layer="20"/>
 <wire x1="-29.99998125" y1="5.7735" x2="-30.99998125" y2="4.04145" width="0" layer="20" curve="59.999988"/>
@@ -3123,7 +3123,7 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="C" x="13" y="-3.15" size="2" layer="27" font="vector" rot="R90" display="off"/>
 <attribute name="VALUE" x="15.54" y="-4.42" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="715K" x="8.55" y="-5.3" smashed="yes" rot="R180">
+<element name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="649K" x="8.55" y="-5.3" smashed="yes" rot="R180">
 <attribute name="NAME" x="9.185" y="-5.935" size="1.27" layer="25" rot="R180"/>
 <attribute name="POPULARITY" value="77" x="8.55" y="-5.3" size="2" layer="27" font="vector" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="8.55" y="-5.3" size="2" layer="27" font="vector" rot="R180" display="off"/>

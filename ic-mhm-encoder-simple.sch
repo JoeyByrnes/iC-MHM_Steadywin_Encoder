@@ -11161,7 +11161,7 @@ Source: www.kingbright.com</description>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uF"/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="715K"/>
+<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="649K"/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SW1" library="ic-mhm" library_urn="urn:adsk.eagle:library:32396126" deviceset="CS-4-13NTA" device="" package3d_urn="urn:adsk.eagle:package:32411948/3"/>
 <part name="U$17" library="No_Connection" deviceset="NC" device=""/>
@@ -11203,6 +11203,12 @@ Resistors</text>
 <text x="193.04" y="111.76" size="3.81" layer="91" ratio="14">Connectors</text>
 <text x="228.6" y="43.18" size="3.81" layer="91" ratio="14" rot="R90">Absolute</text>
 <text x="228.6" y="81.28" size="3.81" layer="91" ratio="14" rot="R90">Incremental</text>
+<text x="6.096" y="3.302" size="2.032" layer="91">RBIAS should 
+probably be 
+around 
+600K to 700K
+to get 
+7us to 8us pulse</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -12039,6 +12045,19 @@ Resistors</text>
 <wire x1="233.68" y1="119.38" x2="233.68" y2="38.1" width="0.1524" layer="91"/>
 <junction x="233.68" y="119.38"/>
 <wire x1="91.44" y1="63.5" x2="5.08" y2="63.5" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<wire x1="33.02" y1="33.02" x2="22.86" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="22.86" x2="5.08" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="22.86" x2="5.08" y2="1.778" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="1.778" x2="30.226" y2="1.778" width="0.1524" layer="91"/>
+<wire x1="30.226" y1="1.778" x2="30.226" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="30.226" y1="22.86" x2="22.86" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="33.02" x2="34.036" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="33.528" y1="32.512" x2="34.036" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="34.036" y1="33.02" x2="33.528" y2="33.528" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
