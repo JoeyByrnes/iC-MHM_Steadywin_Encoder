@@ -91,15 +91,15 @@
 <wire x1="19" y1="-24.82606875" x2="20" y2="-23.09401875" width="0" layer="20" curve="59.999988"/>
 <wire x1="20" y1="-23.09401875" x2="20" y2="-13" width="0" layer="20"/>
 <wire x1="20" y1="-13" x2="21" y2="-12" width="0" layer="20" curve="-90"/>
-<wire x1="21" y1="-12" x2="24.5857875" y2="-12" width="0" layer="20"/>
-<wire x1="24.5857875" y1="-12" x2="25.29289375" y2="-11.70710625" width="0" layer="20" curve="45"/>
-<wire x1="25.29289375" y1="-11.70710625" x2="26.70710625" y2="-10.29289375" width="0" layer="20"/>
-<wire x1="26.70710625" y1="-10.29289375" x2="27" y2="-9.5857875" width="0" layer="20" curve="45"/>
-<wire x1="27" y1="-9.5857875" x2="27" y2="9.5857875" width="0" layer="20"/>
-<wire x1="27" y1="9.5857875" x2="26.70710625" y2="10.29289375" width="0" layer="20" curve="45"/>
-<wire x1="26.70710625" y1="10.29289375" x2="25.29289375" y2="11.70710625" width="0" layer="20"/>
-<wire x1="25.29289375" y1="11.70710625" x2="24.5857875" y2="12" width="0" layer="20" curve="45"/>
-<wire x1="24.5857875" y1="12" x2="21" y2="12" width="0" layer="20"/>
+<wire x1="21" y1="-12" x2="25.171571875" y2="-12" width="0" layer="20"/>
+<wire x1="25.171571875" y1="-12" x2="26.5857875" y2="-11.4142125" width="0" layer="20" curve="45.000063"/>
+<wire x1="26.5857875" y1="-11.4142125" x2="31.4142125" y2="-6.5857875" width="0" layer="20"/>
+<wire x1="31.4142125" y1="-6.5857875" x2="32" y2="-5.171571875" width="0" layer="20" curve="45.00009"/>
+<wire x1="32" y1="-5.171571875" x2="32" y2="5.171571875" width="0" layer="20"/>
+<wire x1="32" y1="5.171571875" x2="31.4142125" y2="6.5857875" width="0" layer="20" curve="45.000063"/>
+<wire x1="31.4142125" y1="6.5857875" x2="26.5857875" y2="11.4142125" width="0" layer="20"/>
+<wire x1="26.5857875" y1="11.4142125" x2="25.171571875" y2="12" width="0" layer="20" curve="45.00009"/>
+<wire x1="25.171571875" y1="12" x2="21" y2="12" width="0" layer="20"/>
 <wire x1="21" y1="12" x2="20" y2="13" width="0" layer="20" curve="-90"/>
 <circle x="0" y="0" radius="37.5" width="0.1016" layer="51"/>
 <text x="22.2" y="9.85" size="0.8" layer="21" font="vector" rot="R180" align="center">PWR</text>
@@ -1238,7 +1238,7 @@
 <rectangle x1="-42.53895" y1="2.85435" x2="-41.89125" y2="2.86705" layer="21"/>
 <rectangle x1="-42.53895" y1="2.86705" x2="-41.89125" y2="2.87975" layer="21"/>
 <text x="7.0748" y="-24.53" size="1" layer="29" font="vector" ratio="12" rot="R330" align="center-right">V2.0</text>
-<text x="25.5748" y="2.3556" size="0.8" layer="22" font="vector" distance="25" rot="MR0" align="center-left">A+
+<text x="25.6002" y="2.4826" size="0.8" layer="22" font="vector" distance="25" rot="MR0" align="center-left">A+
 A-
 B+
 B-
@@ -3550,6 +3550,22 @@ Change to 1 connector? (13pins?)</text>
 NSLI</text>
 <text x="4.1218" y="-22.4934" size="1.5" layer="1" font="vector" rot="R330" align="center-right">iC-MHM Encoder For SteadywinV3</text>
 <text x="7.0748" y="-24.53" size="1" layer="1" font="vector" rot="R330" align="center-right">V2.0</text>
+<wire x1="28.9" y1="6" x2="30.1" y2="6" width="0" layer="20"/>
+<wire x1="30.1" y1="6" x2="31" y2="5.1" width="0" layer="20" curve="-90"/>
+<wire x1="31" y1="5.1" x2="31" y2="4.9" width="0" layer="20"/>
+<wire x1="31" y1="4.9" x2="30.1" y2="4" width="0" layer="20" curve="-90"/>
+<wire x1="30.1" y1="4" x2="28.9" y2="4" width="0" layer="20"/>
+<wire x1="28.9" y1="4" x2="28" y2="4.9" width="0" layer="20" curve="-90"/>
+<wire x1="28" y1="4.9" x2="28" y2="5.1" width="0" layer="20"/>
+<wire x1="28" y1="5.1" x2="28.9" y2="6" width="0" layer="20" curve="-90"/>
+<wire x1="30.1" y1="1" x2="28.9" y2="1" width="0" layer="20"/>
+<wire x1="28.9" y1="1" x2="28" y2="0.1" width="0" layer="20" curve="90"/>
+<wire x1="28" y1="0.1" x2="28" y2="-0.1" width="0" layer="20"/>
+<wire x1="28" y1="-0.1" x2="28.9" y2="-1" width="0" layer="20" curve="90"/>
+<wire x1="28.9" y1="-1" x2="30.1" y2="-1" width="0" layer="20"/>
+<wire x1="30.1" y1="-1" x2="31" y2="-0.1" width="0" layer="20" curve="90"/>
+<wire x1="31" y1="-0.1" x2="31" y2="0.1" width="0" layer="20"/>
+<wire x1="31" y1="0.1" x2="30.1" y2="1" width="0" layer="20" curve="90"/>
 </plain>
 <libraries>
 <library name="ic-mhm" urn="urn:adsk.eagle:library:32396126">
