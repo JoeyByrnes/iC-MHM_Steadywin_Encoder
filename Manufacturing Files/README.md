@@ -9,7 +9,7 @@
 23 SMD Components total <br>
 0 Thru-Hole components <br>
 <p>
-  <img width="25%" src="visuals/assembly-page1.png">
+  <img width="50%" src="visuals/assembly-page1.png">
 </p>
 
 ### See readme in V1 folder for PCB options, but remember the following changes:
