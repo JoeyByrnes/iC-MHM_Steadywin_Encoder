@@ -1,24 +1,18 @@
 # How to Order the iC-MHM Encoder:
 
-<b>
-The PCBs are designed to PCBWay's 4-Layer 2mm stackup. If ordered elsewhere, please confirm that the layer thicknesses are correct before ordering to acheive the correct differential impedances.
-</b>
-<h2>On the first page of PCBway, enter the following:
-<p align="center">
-  <img width="50%" src="visuals/pcbway_page1.PNG">
+#### The PCBs are designed to PCBWay's 4-Layer stackup, any thickness from 0.6mm to 2.4mm. 
+#### If ordered elsewhere, please confirm that the layer thicknesses are correct before ordering to acheive the correct differential impedances
+<hr>
+
+## For an assembly order, enter the following:
+15 Unique Components <br>
+23 SMD Components total <br>
+0 Thru-Hole components <br>
+<p>
+  <img width="25%" src="visuals/assembly-page1.png">
 </p>
 
-On the ordering page, make sure to select 2mm, and choose the color black if you don't want a lame green pcb
-<p align="center">
-  <img width="100%" src="visuals/pcbway_page2.PNG">
-</p>
+### See readme in V1 folder for PCB options, but remember that the thickness can be anything from 0.6mm to 2.4mm now, and the stencil doesnt apply for an assembly order
 
-Make sure to order a stencil, and that you select Top+Bottom. I find that without framework is easier to use.
-<p align="center">
-  <img width="50%" src="visuals/pcbway_stencil.PNG">
-</p>
+### Make sure to upload both the BOM and the zip file which contains the gerbers and the PnP files
 
-This should be the approximate cost if entered correctly, based on data from 12/4/21
-<p align="center">
-  <img width="30%" src="visuals/pcbway_price.PNG"></h2>
-</p>
