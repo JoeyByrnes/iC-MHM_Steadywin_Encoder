@@ -12,7 +12,10 @@
   <img width="25%" src="visuals/assembly-page1.png">
 </p>
 
-### See readme in V1 folder for PCB options, but remember that the thickness can be anything from 0.6mm to 2.4mm now, and the stencil doesnt apply for an assembly order
+### See readme in V1 folder for PCB options, but remember the following changes:
+### The size of the PCB is now 63mm x 58mm (not 68x58)
+### The thickness can be anything from 0.6mm to 2.4mm now
+### the stencil doesnt apply for an assembly order
 
 ### Make sure to upload both the BOM and the zip file which contains the gerbers and the PnP files
 
