@@ -9,7 +9,7 @@
 23 SMD Components total <br>
 0 Thru-Hole components <br>
 <p>
-  <img width="25%" src="visuals/assembly-page1.png">
+  <img width="50%" src="visuals/assembly-page1.png">
 </p>
 
 ### See readme in V1 folder for PCB options, but remember that the thickness can be anything from 0.6mm to 2.4mm now, and the stencil doesnt apply for an assembly order
